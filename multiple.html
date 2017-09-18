@@ -8,13 +8,30 @@
 <body>
     <svg  version="1.1" 
         xmlns="http://www.w3.org/2000/svg" 
-        height="268" 
-        width="268">
+        viewBox="0 0 268 268"
         <!-- Anything that sets a coordinate should stay inline -->
         <circle r="130" cx="134" cy="134"/>
         <line x1="47" y1="198" x2="221" y2="198" />
         <polygon points="52,190 134,30 216,190"/>
-        <text x="134" y="142">SVG</text>        
+        <text x="134" y="142">SVG</text>
+        <g class="first triangle-group" 
+        transform="translate(45, 67) rotate(10 12.5 12.5)">
+            <polygon points="12,0 7,10 17,10" class="force"/>
+            <polygon points="0,25 5,15 10,25" class="force"/>
+            <polygon points="15,25 20,15 25,25" class="force"/>
+        </g>
+        <g class="second triangle-group" 
+        transform="translate(198, 67) rotate(-10 12.5 12.5)">
+            <polygon points="12,0 7,10 17,10" class="force"/>
+            <polygon points="0,25 5,15 10,25" class="force"/>
+            <polygon points="15,25 20,15 25,25" class="force"/>
+        </g>
+        <g class="third triangle-group" 
+        transform="translate(121.5, 211) scale(0.6)  translate(8, 8)">
+            <polygon points="12,0 7,10 17,10" class="force"/>
+            <polygon points="0,25 5,15 10,25" class="force"/>
+            <polygon points="15,25 20,15 25,25" class="force"/>
+        </g>
     </svg>
 </body>
 </html>

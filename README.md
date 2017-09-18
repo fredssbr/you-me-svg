@@ -17,3 +17,13 @@ Nope! You cannot select inner elements of the SVG when you're including it with 
 <svg height="110" width="80" xmlns="http..." ~~fill="color"~~>
 ```
 Again, nope. We would need to do this through CSS because the SVG tag has no "fill" attribute.
+
+### Groups
+
+Groups allow manipulating elements in a bundle. It has the transform property with which you can:
+
+traslate(x, y) = 
+rotate(degree, x center, y center) = 
+scale(0.6) = value 1 means no scaling (the reference is the top left of the frame, so you might need to translate it again)
+
+SVG height and width is the viewport

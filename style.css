@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Filmotype Major";
+    src: url("OPTIMajerIrregular.otf");
+}
+
+svg {
+    height: auto;
+    width: 50%;
+}
+
 circle {
     fill: none;
     stroke: #008B6F;
@@ -13,7 +23,7 @@ text {
     font-size: 60px;
     /*The default anchor point for text the bottom left of the text box*/
     text-anchor: middle;
-    font-family: 'FilmotypeMajor';
+    font-family: Filmotype Major;
     stroke: #000;
     stroke-width: 3px;
     fill: #F6F7F3;
@@ -23,4 +33,8 @@ polygon {
     fill: #008B5F;
     stroke: black;
     stroke-width: 2px;
+}
+
+.triangle-group polygon{
+    stroke-width: 1px;
 }
